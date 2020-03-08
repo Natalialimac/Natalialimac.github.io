@@ -20,30 +20,32 @@ body {
 }
 
 h1#nome {
-    left: 10%;
-    position: relative;
-    top: 2em;
+    left: 35%;
+    position: absolute;
+    top: 6em;
+    color: rgb(8, 8, 8);
 }
 
 nav img.menuLateral {
     width: 100px;
-    left: 20%;
+    left: 30%;
+    top: 2em;
     position: absolute;
 }
 
 #menu {
     background-color: #bdbebd;
-    width: 200px;
+    width: 250px;
     height: 100%;
     position: absolute;
 }
 
 ul {
     list-style: none;
-    left: 1px;
-    top: 9em;
+    top: 13em;
     position: absolute;
     width: 100%;
+    text-align: center;
 }
 
 a {
@@ -54,7 +56,7 @@ a {
 
 a:hover {
     background-color: #D3D3D3;
-    color: #8f1212;
+    color: #b61515;
 }
 
 nav li ul {
@@ -63,11 +65,28 @@ nav li ul {
 
 nav li:hover ul {
     display: block;
-    position: static;
+    position: absolute;
+    font-size: 13px;
 }
 
 nav li:hover li {
     float: none;
+}
+
+nav ul ul {
+    left: 101%;
+}
+
+ul ul {
+    background-color: #bdbebd;
+    width: 200px;
+    height: auto;
+    position: absolute;
+}
+
+nav ul li:hover>ul {
+    opacity: 1;
+    visibility: visible;
 }
 
 img.icones {
@@ -82,7 +101,7 @@ a#linkedin img.icones {
 
 #perfil {
     position: absolute;
-    left: 55%;
+    left: 50%;
     top: 2em;
 }
 
@@ -93,20 +112,30 @@ img.photo {
 
 #top1 {
     position: absolute;
-    left: 56%;
+    left: 51.8%;
     top: 8em;
     color: #bdbebd;
 }
 
 h1.mb-4 {
     position: absolute;
-    left: 54%;
+    left: 50%;
     top: 7em;
 }
 
 p.mb-4 {
     position: absolute;
-    left: 40%;
+    left: 30%;
     top: 19em;
-    margin-right: 200px;
+    text-align: center;
+}
+
+footer {
+    background: #bdbebd;
+    width: 17%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-size: 13px;
 }
