@@ -5,27 +5,41 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <title>Natália Lima</title>
+
+    <script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="http://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
 <body>
 
-    <nav id="menu" role="navigation">
-        <img class="menuLateral" src="img/menuLateral.png">
+    <nav class="menu" role="navigation">
         <h1 id="nome">NL.DEV</h1>
         <ul>
             <li class="topicos"><a href="index.html">Home</a></li>
             <li><a href="https://github.com/Natalialimac/" target="_blank"> GitHub</a></li>
-            <li><a href=""> Social Networks</a>
-                <ul>
+            <li class="active">
+                <a href="" class="feat-btn"> Social Networks
+                <span class="fas fa-caret-down first"></span>
+                </a>
+                <ul class="feat-show">
                     <li>
-                        <a href="https://www.instagram.com/nataliadelimac/" target="_blank"><img class="icones" src="img/instagram.png"> Instagram</a>
+                        <a href="https://www.instagram.com/natnunesc/" target="_blank">
+                            <img class="icones" src="img/instagram.png">
+                        </a>
                     </li>
                     <li>
-                        <a id="linkedin" href="https://www.linkedin.com/in/nat%C3%A1lia-de-lima-753076192/" target="_blank"><img class="icones" src="img/linkedin.png">Linkedin</a>
+                        <a id="linkedin" href="https://www.linkedin.com/in/nat%C3%A1lia-de-lima-753076192/" target="_blank">
+                            <img class="linkedin" src="img/linkedin.png">
+                        </a>
                     </li>
+                    <li>
+                        <a href="https://open.spotify.com/playlist/0IhygxkJEa1kwsBfeti1yv" target="_blank">
+                            <img class="icones" src="img/spotify.png">
+                        </a>
+                    </li>
+
                 </ul>
             </li>
-            <li><a href="https://open.spotify.com/playlist/0IhygxkJEa1kwsBfeti1yv" target="_blank"> Spotify Playlist </a></li>
             <li><a href="mailto:nataliadelimac@outlook.com?subject=Contato" targer="_blank"> Send Email</a></li>
         </ul>
     </nav>
@@ -33,10 +47,10 @@
     <div id="perfil">
         <img class="photo" src="img/eu.png" alt="perfil">
     </div>
+
     <div class="description">
-        <h2 id="top1">Olá, eu sou</h2>
         <h1 class="mb-4">Natália Lima</h1>
-        <p class="mb-4"> Atualmente cursando Engenharia de Software na UCSAL - Universidade Católica do Salvador - no campus Pituaçu.<br> Tenho conhecimentos em desenvolvimento mobile utilizando React-native/ Android.<br> Além dos conhecimento em Java, HTML e CSS.
+        <p class="mb-4"> Atualmente cursando Engenharia de Software na UCSAL - Universidade Católica do Salvador - no campus Pituaçu.<br> Tenho conhecimentos em desenvolvimento mobile utilizando React-native/ Android.<br> Além dos conhecimento em Java, HTML, JS e CSS.
         </p>
     </div>
 
@@ -44,6 +58,7 @@
         <p>Natália de Lima Conceição<br></p>
     </footer>
 
+    <script src="js/menu.js"></script>
 </body>
 
 </html>
